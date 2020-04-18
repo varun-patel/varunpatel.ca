@@ -1,0 +1,17 @@
+{
+  "name": "varunpatel.ca",
+  "version": "1.0.0",
+  "description": "Profile for Varun Patel",
+  "main": "index.js",
+  "repository": "git@github.com:varun-patel/varunpatel.ca",
+  "author": "Varun Patel <varun@varunaptel.ca>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "vuepress": "^1.4.1"
+  },
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  }
+}
