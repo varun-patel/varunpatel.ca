@@ -1,0 +1,68 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Luscinia
+  filter: "luscinia"
+- name: Open Source
+  filter: "oss"
+
+# your projects
+projects:
+- name: Aristotle Education Platform
+  logo: images/projects/aristotle.png
+  role: Owner
+  timeline: "August 2018 - Present"
+  repo: https://github.com/luscinia-enterprises/aristotle
+  summary: The Aristotle Education platform is a project currently under development that aims to provide a interactive education experience using machine learning to help teachers access deeper and more relevant insights into their students' education.
+  tags: ["luscinia", "oss"]
+
+- name: Aristotle Resources Service
+  logo: images/projects/aristotle.png
+  role: Development Supervisor
+  timeline: "August 2018 - Present"
+  repo: https://github.com/luscinia-enterprises/aristotle-resources-service
+  summary: An API service built to integrate with the Aristotle Education Platform that extends advanced machine learning an algorithmic intelligence capabilities to the platform as well as perform advanced analysis on databased data.
+  tags: ["luscinia", "oss"]
+
+- name: luscinia.ca
+  logo: images/projects/aristotle.png
+  role: Owner
+  timeline: "Aug 2018 - Present"
+  url: "https://luscinia.ca"
+  summary: Website for Luscinia Enterprises Assn. a B.C. registered not-for-profit society specialising in advanced education technologies.
+  tags: ["luscinia"]
+
+- name: Ubuntu Tutorials
+  logo: images/projects/ubuntu.png
+  role: Contributor
+  timeline: "December 2017 - February 2018"
+  repo: https://github.com/canonical-web-and-design/tutorials.ubuntu.com
+  summary: Tutorials that provide step-by-step process to set up development and dev-ops workflows on Ubuntu machines, servers or devices.
+  tags: ["oss"]
+
+- name: GCompris
+  logo: images/projects/kde.svg
+  role: Contributor
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/gcompris/GCompris-qt
+  summary: GCompris is a high quality educational software suite, including a large number of activities for children aged 2 to 10. Some of the activities are game orientated, but still educational.
+  tags: ["oss"]
+
+- name: KDE Partition Manager
+  logo: images/projects/kde.svg
+  role: Contributor
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/KDE/partitionmanager
+  summary: KDE Partition Manager is an application to help you manage the disk devices, partitions and file systems on your computer. It allows you to easily create, copy, move, delete, resize without losing data, backup and restore partitions.
+  tags: ["oss"]

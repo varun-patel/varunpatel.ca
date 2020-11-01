@@ -1,0 +1,63 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Engineering Student | Chair of the Board of Directors
+# your company information
+company:
+  name: Luscinia Enterprises Assn.
+  url: "https://luscinia.ca"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Experienced Director of Luscinia Enterprises Assn. a not-for-profit working in education technologies. Skilled in Azure Cloud, Java, Python APIs and Kubernetes/Docker orchestration as well as many networking systems and technologies. Currently studying for a Bachelor of Applied Science at the University of British Columbia.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "varun@varunpatel.ca"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/varun-patel/"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/varunp01/"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/varun.patel01"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Java
+  percentage: 100
+  color: green
+- name: C
+  percentage: 100
+  color: green
+- name: Docker
+  percentage: 100
+  color: green
+- name: Azure
+  percentage: 100
+  color: green
+- name: HTML
+  percentage: 100
+  color: green
+- name: CSS
+  percentage: 100
+  color: green

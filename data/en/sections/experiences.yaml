@@ -1,0 +1,84 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Luscinia Enterprises Assn.
+    url: "https://luscinia.ca"
+    location: Vancouver, BC
+    # company overview
+    overview: Luscinia is an established not-for-profit working on increasing access to education technologies.
+  positions:
+  - designation: Chair of the Board of Directors & CTO
+    start: Aug 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Oversee and participate in the development of the Aristotle Education Platform
+    - Manage deployment of products to Azure leveraging App Service and AKS
+    - Create feature sets related to machine learning, psychological proficiencies and learning styles
+    - Ensure that cash & in-kind grant funding is allocated effectively
+    - Work with the Board of Directors on directional guidance for the society
+
+  - designation: Director & Head of Product Development
+    start: Aug 2018
+    end: Aug 2020
+    responsibilities:
+    - Participate in development of the Aristotle Education Platform
+    - Manage deployment of Aristotle to Azure App Service
+    - Create feature sets related to learning styles
+    - Work with the Board of Directors on directional guidance for the society
+
+- company:
+    name: Elections Canada | Élections Canada
+    url: "https://elections.ca"
+    location: Vancouver, BC
+    overview: Elections Canada oversees the electoral process on a national scale.
+  positions:
+  - designation: Poll Clerk
+    start: Oct 2019
+    end: Oct 2019
+    responsibilities:
+    - Record voters and fill out forms
+    - Ensure secrecy of the ballot by maintaing and enforcing rules of the Elections
+    - Enable accessiblity when voting by creating reasonable accomodations
+    - Manage counting of votes while ensuring scrutineering process is protected
+
+- company:
+    name: City of Vancouver
+    url: "https://vancouver.ca/your-government/civic-elections"
+    location: Vancouver, BC
+    overview: City of Vancouver Municipal Elections oversees the elections of the Mayor, councillors and various board members as well as public referenda.
+  positions:
+  - designation: Registration Official
+    start: Oct 2018
+    end: Oct 2018
+    responsibilities:
+    - Verify voters are on the voting list and have acceptable ID
+    - Prepare and explain the ballot to voters including candidates and referenda
+    - Ensure voters understand the electoral process
+    - Assist non-resident and University Endowment Voters with special ballots
+    - Maintain constant counts of ballots
+
+- company:
+    name: A&W Food Services of Canada
+    url: "https://aw.ca"
+    location: Vancouver, BC
+    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+  positions:
+  - designation: Intern
+    start: Jun 2015
+    end: Jan 2016
+    responsibilities:
+    - Count lost of interns.
+    - Count more interns.
+    - Count me as an intern.
