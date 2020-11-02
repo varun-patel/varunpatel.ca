@@ -27,6 +27,10 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "varun@varunpatel.ca"
 
+- name: S/MIME Certificate
+  icon: "fas fa-key"
+  url: "/files/Varun_Patel_SMIME.pem"
+
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/varun-patel/"
