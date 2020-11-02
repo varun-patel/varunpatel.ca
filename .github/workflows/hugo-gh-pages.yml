@@ -1,0 +1,23 @@
+name: Push to GitHub Pages
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v1
+
+      - name: Deploy the site
+        uses: benmatselby/hugo-deploy-gh-pages@master
+        env:
+          HUGO_VERSION: 0.77.0
+          TARGET_REPO: varun-patel/varunpatel.ca
+          TARGET_BRANCH: gh-pages
+          TOKEN: ${{ secrets.TOKEN }}
+          HUGO_ARGS: '--gc --minify'
+          CNAME: varunpatel.ca
