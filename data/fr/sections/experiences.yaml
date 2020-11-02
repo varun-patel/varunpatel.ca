@@ -1,0 +1,86 @@
+# section information
+section:
+  name: Expérience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Luscinia Enterprises Assn.
+    url: "https://luscinia.ca"
+    location: Vancouver, BC
+    # company overview
+    overview: Luscinia est une organisation à but non lucratif établie qui travaille à améliorer l'accès aux technologies éducatives.
+  positions:
+  - designation: Président du conseil d'administration et directeur technique
+    start: Août 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Superviser et participer au développement de la plateforme éducative Aristote
+    - Gérer le déploiement des produits sur Azure en utilisant App Service et AKS
+    - Créez des ensembles de fonctionnalités liés à l'apprentissage automatique, aux compétences psychologiques et aux styles d'apprentissage
+    - Veiller à ce que les subventions en espèces et en nature soient allouées efficacement
+    - Travailler avec le conseil d'administration sur des orientations directionnelles pour la société
+
+  - designation: Directeur et responsable du développement de produits
+    start: Août 2018
+    end: Août 2020
+    responsibilities:
+    - Participer au développement de la plateforme éducative Aristote
+    - Gérer le déploiement d'Aristote sur Azure App Service
+    - Créer des ensembles de fonctionnalités liés aux styles d'apprentissage
+    - Travailler avec le conseil d'administration sur des orientations directionnelles pour la société
+
+- company:
+    name: Élections Canada | Elections Canada
+    url: "https://elections.ca"
+    location: Vancouver, BC
+    overview: Élections Canada supervise le processus électoral à l'échelle nationale.
+  positions:
+  - designation: Greffier du scrutin
+    start: Oct 2019
+    end: Oct 2019
+    responsibilities:
+    - Enregistrer les électeurs et remplir des formulaires
+    - Assurer le secret du scrutin en maintenant et en appliquant les règles des élections
+    - Activer l'accessibilité lors du vote en créant des aménagements raisonnables
+    - Gérer le dépouillement des votes tout en garantissant la protection du processus de vérification technique
+
+- company:
+    name: Ville de Vancouver
+    url: "https://vancouver.ca/your-government/civic-elections"
+    location: Vancouver, BC
+    overview: Les élections municipales de la ville de Vancouver supervisent les élections du maire, des conseillers et de divers membres du conseil ainsi que les référendums publics.
+  positions:
+  - designation: Agent d'inscription
+    start: Oct 2018
+    end: Oct 2018
+    responsibilities:
+    - Vérifier que les électeurs sont sur la liste de vote et ont une pièce d'identité acceptable
+    - Préparer et expliquer le bulletin de vote aux électeurs, y compris les candidats et les référendums
+    - S'assurer que les électeurs comprennent le processus électoral
+    - Aider les électeurs de dotation non-résidents et universitaires avec des votes spéciaux
+    - Maintenir un décompte constant des bulletins de vote
+
+- company:
+    name: Services alimentaires A&W du Canada
+    url: "https://aw.ca"
+    location: Vancouver, BC
+    overview: A&W Canada est un chef de file des chaînes de restauration rapide franchisées canadiennes.
+  positions:
+  - designation: Représentant caissier et service à la clientèle
+    start: Dec 2016
+    end: Juin 2017
+    responsibilities:
+    - Ouverture du magasin à 5h30 et début de la préparation pour l'ouverture de 6h du matin en tant que détenteur de clés
+    - Rempli avec des rôles au besoin, principalement caissier
+    - Compter et équilibrer les caisses au début et à la fin des quarts de travail des caissiers
+    - Acceptez les livraisons de nourriture et faites leurs inventaires
+    - Traiter les situations clients plus difficiles à mesure qu'elles surviennent
