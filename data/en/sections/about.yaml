@@ -20,6 +20,7 @@ resume: "files/resume.pdf"
 # a summary about you
 summary: 'Experienced Director of Luscinia Enterprises Assn. a not-for-profit working in education technologies. Skilled in Azure Cloud, Java, Python APIs and Kubernetes/Docker orchestration as well as many networking systems and technologies. Currently studying for a Bachelor of Applied Science at the University of British Columbia.'
 
+
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
