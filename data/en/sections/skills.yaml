@@ -1,0 +1,40 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Kubernetes
+  logo: "/images/sections/skills/kubernetes.png"
+  summary: "Experienced with managing applications and microservices on Kubernetes. Have worked with public cloud and hybrid cloud implementations of business application logic on Kubernetes."
+  url: "https://kubernetes.io/"
+
+- name: Docker
+  logo: "/images/sections/skills/docker.png"
+  summary: "Actively work with Docker files and docker-compose configurations. I am able to leverage all the capabilities of Docker hub and other container repositories to automate builds and deployments."
+  url: "https://www.docker.com/"
+
+- name: Cloud Computing
+  logo: "/images/sections/skills/cloud.png"
+  summary: "Microsoft Certified Azure Administrator Associate, Over 3 years of experience implementing various technologies on Azure as well as 1 year worth of experience on Google Cloud Platform"
+
+- name: Linux
+  logo: "/images/sections/skills/linux.png"
+  summary: "Extensive experience with linux on the server and desktop as well as working with embedded devices. In the past I have also contributed to Ubuntu writing installation and setup tutorials."
+
+- name: Git
+  logo: "/images/sections/skills/git.png"
+  summary: "Experienced with git-based development, especially on GitHub. This includes setting up enterprise workflows like pull request and merge control systems as well as integration with CI/CD systems"
+  url: "https://git-scm.com/"
+
+- name: Java
+  logo: "/images/sections/skills/java.png"
+  summary: "Over 4 years of experience programming with java spanning from simple command line applications to complex, modular web applications based on Spring Boot MVC."
+  url: "https://www.java.com/en/"
