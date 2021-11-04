@@ -5,82 +5,105 @@ section:
   enable: true
   weight: 4
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true 
 
-# Your experiences
+
 experiences:
+
+
 - company:
-    name: Luscinia Enterprises Assn.
+    name: Luscinia Enterprises Association
     url: "https://luscinia.ca"
     location: Vancouver, BC
-    # company overview
-    overview: Luscinia is an established not-for-profit working on increasing access to education technologies.
+    overview: Luscinia is an established not-for-profit society working on increasing access to education by leveraging the latest technologies.
+  
   positions:
-  - designation: Chair of the Board of Directors & CTO
-    start: Aug 2020
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: Lead, Software Development
+    start: August 2018
     responsibilities:
-    - Oversee and participate in the development of the Aristotle Education Platform
-    - Manage deployment of products to Azure leveraging App Service and AKS
-    - Create feature sets related to machine learning, psychological proficiencies and learning styles
-    - Ensure that cash & in-kind grant funding is allocated effectively
-    - Work with the Board of Directors on directional guidance for the society
+    - Apply skills in Java to create Spring Boot applications
+    - Use Python to create a Flask backed machine learning API
+    - Create and maintain DevOps pipelines using GitHub, Azure DevOps and AKS
+    - Manage production deployments of applications and dependencies to AKS using Docker
+    - Write and upkeep Docker build files and Helm charts
+    - Administer multiple deployments of MongoDB, Redis and PostgreSQL
+    - Issue and secure TLS certificates for servers and endpoints
+    - Manage networking, DNS and domain registration
+    - Provisioned Microsoft 365 and G Suite for employees, volunteers and admin
+    - Solicit sponsorships, grants and in-kind donations valued at $XX XXX annually
+    - Supervise a team of developers and web designers working on the Aristotle Platform
+  - designation: Secretary, Board of Directors
+    start: August 2021
+    responsibilities:
+    - Advise the Chair of the Board on matters of procedure
+    - Manage documents and procedural filings for the society
+    - Call for and provide notice of meetings and take comprehensive meeting minutes
+    - Complete financial filings with the CRA and BC Government
+    - Act as sole signing authority for the company and keeper of the corporate seal
+  - designation: Chair of the Board of Directors
+    start: August 2020
+    end: August 2021
+    responsibilities:
+    - Supervised the board of directors in the undertaking of administrative duties
+    - Work with the Board of Directors on long-term directional guidance for the society
+    - Reviewed and approved new business venture filings by members, creating Plato Learning
+    - Ensured that cash & in-kind grant funding valued at $XXX XXX is allocated effectively
+    - Worked with accountants on financial statements and increasingly complex payroll filings
+    - Maintained filings with multiple government entities
+  - designation: Founding Director
+    start: August 2018
+    end: August 2020
+    responsibilities:
+    - Implemented a clear and direct governance structure for the company
+    - Provided directional guidance for the society
+    - Established development plans for Aristotle
+    - Brokered multiple sponsorship deals
+    - Revised and proposed updates to society bylaws
+    - Issued directives to hold the first election of the board of directors
 
-  - designation: Director & Head of Product Development
-    start: Aug 2018
-    end: Aug 2020
-    responsibilities:
-    - Participate in development of the Aristotle Education Platform
-    - Manage deployment of Aristotle to Azure App Service
-    - Create feature sets related to learning styles
-    - Work with the Board of Directors on directional guidance for the society
 
 - company:
     name: Elections Canada | Élections Canada
     url: "https://elections.ca"
     location: Vancouver, BC
-    overview: Elections Canada oversees the electoral process on a national scale.
+    overview: Elections Canada is the independent and non-partisan agency responsible for conducting federal elections and referenda.
+  
   positions:
-  - designation: Poll Clerk
-    start: Oct 2019
-    end: Oct 2019
+  - designation: Central Poll Supervisor
+    start: Contract
+    end: September 2021
     responsibilities:
-    - Record voters and fill out forms
-    - Ensure secrecy of the ballot by maintaining and enforcing rules of the Elections
-    - Enable accessiblity when voting by creating reasonable accomodations
-    - Manage counting of votes while ensuring scrutineering process is protected
+    - Managed polling place as the highest ranking election officer present
+    - Implemented COVID-19 measures including physical distancing and distributing PPE
+    - Conducted site accessibility assessments prior to and during election day
+    - Assisted poll workers with their tasks, relaying directives from the elections office
+    - Successfully handled one of the longest lines in the country at 3.5 hours
+    - Supervised the count of ballots at the end of the voting day, including secure transport
+    - Secured transport of sensitive election materials including voter rolls and ballots
+    - Enforced the Canada Elections Act at the polling place
+    - Reported election results to the Returning Officer
+  - designation: Poll Clerk
+    start: Contract
+    end: October 2019
+    responsibilities:
+    - Managed counting of votes while ensuring scrutineering process is protected
+    - Recorded eligible voters and filled out relevant forms
+    - Ensured secrecy of the ballot by maintaining and enforcing rules of the Elections
+    - Enabled accessiblity during the voting process
+
 
 - company:
     name: City of Vancouver
     url: "https://vancouver.ca/your-government/civic-elections"
     location: Vancouver, BC
     overview: City of Vancouver Municipal Elections oversees the elections of the Mayor, councillors and various board members as well as public referenda.
+  
   positions:
   - designation: Registration Official
-    start: Oct 2018
-    end: Oct 2018
+    start: Contract
+    end: October 2018
     responsibilities:
-    - Verify voters are on the voting list and have acceptable ID
-    - Prepare and explain the ballot to voters including candidates and referenda
-    - Ensure voters understand the electoral process
-    - Assist non-resident and University Endowment Voters with special ballots
-    - Maintain constant counts of ballots
+    - Verified that voters were on the voting list and had acceptable ID
+    - Prepared and explained the ballot to voters including candidates and referenda
+    - Ensured voters understood the electoral process
+    - Assisted non-resident and University Endowment voters with special ballots
 
-- company:
-    name: A&W Food Services of Canada
-    url: "https://aw.ca"
-    location: Vancouver, BC
-    overview: A&W Canada is a leader in Canadian franchised fast food chains.
-  positions:
-  - designation: Cashier & Customer Service Representative
-    start: Dec 2016
-    end: Jun 2017
-    responsibilities:
-    - Opened store at 5:30am and started prep for 6am opening as a keyholder
-    - Filled in with roles as needed, primarily cashier
-    - Count and balance tills at the start and end of cashiers shifts
-    - Accept food deliveries and take their inventories
-    - Deal with more difficult customer situations as they arise

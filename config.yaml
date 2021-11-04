@@ -9,9 +9,6 @@ languages:
   en:
     languageName: English
     weight: 1
-  fr:
-    languageName: Français
-    weight: 2
 
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
@@ -21,7 +18,7 @@ languages:
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: false
   tableOfContents:
     startLevel: 2
     endLevel: 6

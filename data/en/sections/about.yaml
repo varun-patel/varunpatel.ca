@@ -8,25 +8,29 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Engineering Student | Chair of the Board of Directors
+designation: Lead Software Developer at Luscinia Enterprises | Engineering Student at UBC
 # your company information
-company:
-  name: Luscinia Enterprises Assn.
-  url: "https://luscinia.ca"
+#company:
+#  name: Luscinia Enterprises Assn.
+#  url: "https://luscinia.ca"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Experienced Director of Luscinia Enterprises Assn. a not-for-profit working in education technologies. Skilled in Azure Cloud, Java, Python APIs and Kubernetes/Docker orchestration as well as many networking systems and technologies. Currently studying for a Bachelor of Applied Science at the University of British Columbia.'
 
+summary: 
+
+#summary: 'Experienced Director of Luscinia Enterprises Assn. a not-for-profit working in education technologies. Skilled in Azure Cloud, Java, Python APIs and Kubernetes/Docker orchestration as well as many networking systems and technologies. Currently studying for a Bachelor of Applied Science at the University of British Columbia.'
+
+#move director lower, sdl, skills first
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "varun@varunpatel.ca"
+  url: "jobs@varunpatel.ca"
 
 - name: S/MIME Certificate
   icon: "fas fa-key"
@@ -43,26 +47,58 @@ socialLinks:
 - name: Facebook
   icon: "fab fa-facebook"
   url: "https://www.facebook.com/varun.patel01"
+  
+- name: Keybase
+  icon: "fab fa-keybase"
+  url: "https://keybase.io/varunpatel"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
-softSkills:
-- name: Java
+badges:
+  
+- type: certification
+  name: "Microsoft Certified Azure Fundamentals"
+  url: "https://www.credly.com/badges/9cec8f9b-b101-4037-a57e-93c789459fd4"
+  badge: "/images/about/mta-introduction-to-programming-using-java-certified-2021.png"
+  
+- type: certification
+  name: "Microsoft Certified: Azure Fundamentals"
+  url: "https://www.credly.com/badges/f64a4a97-88f5-47a9-8680-0a88ec0a4ac5"
+  badge: "/images/about/microsoft-certified-azure-fundamentals.png"
+  
+- type: certification
+  name: "Microsoft Certified: Azure Administrator Associate"
+  url: "https://www.credly.com/badges/e95d78df-efec-45aa-84b4-9b4cf0b7ad05"
+  badge: "/images/about/microsoft-certified-azure-administrator-associate.2.png"
+  
+- type: soft-skill-indicator
+  name: Java
+  percentage: 100
+  color: orange
+  
+- type: soft-skill-indicator
+  name: HTML
+  percentage: 100
+  color: blue
+  
+- type: soft-skill-indicator
+  name: Docker
   percentage: 100
   color: green
-- name: C
+  
+- type: soft-skill-indicator
+  name: C
+  percentage: 100
+  color: orange
+  
+- type: soft-skill-indicator
+  name: CSS
+  percentage: 100
+  color: blue
+  
+- type: soft-skill-indicator
+  name: Kubernetes
   percentage: 100
   color: green
-- name: Docker
-  percentage: 100
-  color: green
-- name: Azure
-  percentage: 100
-  color: green
-- name: HTML
-  percentage: 100
-  color: green
-- name: CSS
-  percentage: 100
-  color: green
+  

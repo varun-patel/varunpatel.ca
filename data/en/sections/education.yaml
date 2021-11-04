@@ -8,28 +8,16 @@ section:
   showOnNavbar: true
 
 degrees:
+#Computer engineering
 - name: Bachelor of Applied Science (Engineering)
   icon: fa-university
   timeframe: 2019 - Present
   institution:
     name: University of British Columbia
     url: "https://www.ubc.ca/"
-  takenCourses:
-    showGrades: false
-    courses:
-    - name: "APSC 100: Introduction to Engineering I"
-    - name: "APSC 101: Introduction to Engineering II"
-    - name: "APSC 160: Introduction to Computation in Engineering Design"
-    - name: "MATH 100: Differential Calculus with Applications to Physical Sciences and Engineering"
-    - name: "PHYS 157: Introductory Physics for Engineers I"
-    - name: "PHYS 159: Introductory Physics Laboratory for Engineers"
-    - name: "CHEM 154: Chemistry for Engineering"
-    - name: "POLI 100: Introduction to Politics"
-    - name: "ECON 101: Principles of Microeconomics"
-    - name: "WRDS 150: Writing and Research in the Disciplines"
-    - name: "FREN 111: Elementary French I"
   extracurricularActivities:
-  - Member of UBC UX Hub
+  - Member of the UBC UX Hub
+  - Member of the UBC Developer Student Club
 - name: High School Diploma
   icon: fa-school
   timeframe: 2014 - 2019

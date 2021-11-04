@@ -6,11 +6,11 @@ greeting: "Hi, I'm"
 image: "images/avatar.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "varun@varunpatel.ca"
+  email: "jobs@varunpatel.ca"
 
 # some summary about what you do
-summary:
-  - I am a developer
-  - I am an engineering student
-  - I work with not-for-profits
-  - I work on open-source projects
+#summary:
+#  - I am a software developer
+#  - I am an engineering student
+#  - I work with not-for-profits
+#  - I work on open-source projects
