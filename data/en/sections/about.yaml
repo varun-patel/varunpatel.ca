@@ -57,10 +57,10 @@ socialLinks:
 # currently supported colors: blue, yellow, pink, green, sky, orange
 badges:
   
-- type: certification
-  name: "Microsoft Certified Azure Fundamentals"
-  url: "https://www.credly.com/badges/9cec8f9b-b101-4037-a57e-93c789459fd4"
-  badge: "/images/about/mta-introduction-to-programming-using-java-certified-2021.png"
+#- type: certification
+#  name: "Microsoft Certified Azure Fundamentals"
+#  url: "https://www.credly.com/badges/9cec8f9b-b101-4037-a57e-93c789459fd4"
+#  badge: "/images/about/mta-introduction-to-programming-using-java-certified-2021.png"
   
 - type: certification
   name: "Microsoft Certified: Azure Fundamentals"
@@ -71,6 +71,11 @@ badges:
   name: "Microsoft Certified: Azure Administrator Associate"
   url: "https://www.credly.com/badges/e95d78df-efec-45aa-84b4-9b4cf0b7ad05"
   badge: "/images/about/microsoft-certified-azure-administrator-associate.2.png"
+  
+- type: certification
+  name: "Microsoft Certified: Azure Developer Associate"
+  url: "https://www.credly.com/badges/f47f5c5a-d453-486e-96b6-f966ca6d93c2"
+  badge: "/images/about/microsoft-certified-azure-developer-associate.1.png"
   
 - type: soft-skill-indicator
   name: Java
