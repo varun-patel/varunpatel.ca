@@ -3,7 +3,7 @@ name: "Varun Patel"
 nickname: "Varun"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I'm"
-image: "images/avatar.jpg"
+image: "images/avatar.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "jobs@varunpatel.ca"
