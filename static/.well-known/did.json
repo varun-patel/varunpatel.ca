@@ -1,0 +1,48 @@
+{
+  "id": "did:web:varunpatel.ca",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:varunpatel.ca"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://varunpatel.ca/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/2e4d1323-bd87-4956-974f-30fb1bef1c30"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#7b49b40b0d4140ca9e7c9b42b8dc6afbvcSigningKey-af657",
+      "controller": "did:web:varunpatel.ca",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "kty": "EC",
+        "x": "AtKSUQWqwR4Jbi7x9fb_G0TnHYvh3btrG_ASrvqbNmk",
+        "y": "2qFkw-IYR5jgSIgGz0zZ4qZFoO0PO1LIx960WrIIwXQ"
+      }
+    }
+  ],
+  "authentication": [
+    "#7b49b40b0d4140ca9e7c9b42b8dc6afbvcSigningKey-af657"
+  ],
+  "assertionMethod": [
+    "#7b49b40b0d4140ca9e7c9b42b8dc6afbvcSigningKey-af657"
+  ]
+}
