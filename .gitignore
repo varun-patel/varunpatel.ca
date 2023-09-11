@@ -1,1 +1,6 @@
 public/
+resources
+.github
+.idea
+.gitignore
+.hugo*

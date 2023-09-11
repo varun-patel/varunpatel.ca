@@ -3,19 +3,38 @@ section:
   name: Experience
   id: experiences
   enable: true
-  weight: 4
+  weight: 2
   showOnNavbar: true
 
-
 experiences:
-
+- company:
+    name: Seaspan Ship Management Ltd.
+    url: "https://seaspancorp.com"
+    location: Vancouver, BC
+    overview: Seaspan Corporation is the world's largest owner and manager of container shipping vessels.
+  positions:
+  - designation: IT Service Delivery Specialist
+    start: September 2023
+    end: Present
+    responsibilities:
+    - Provide systems, applications and hardware support for shore and vessel systems
+    - Provision and maintain user accounts for enterprise ID and other systems
+    - Image and configure devices for new employees and kiosks
+    - Develop automations for business processes using the Adaxes platform
+    - Create tooling and powershell scripts to automate IT processes
+    - Maintain configurations and app deployments on the Intune MDM platform
+    - Implement and maintain CIS benchmarks for user endpoints
+    - Visit ships in port and provide on-site technical & break-fix support
+  - designation: IT Service Delivery Intern
+    start: May 2022
+    end: August 2023
+    responsibilities:
 
 - company:
     name: Luscinia Enterprises Association
     url: "https://luscinia.ca"
     location: Vancouver, BC
     overview: Luscinia is an established not-for-profit society working on increasing access to education by leveraging the latest technologies.
-  
   positions:
   - designation: Lead, Software Development
     start: August 2018
@@ -60,13 +79,55 @@ experiences:
     - Revised and proposed updates to society bylaws
     - Issued directives to hold the first election of the board of directors
 
+- company:
+    name: Elections BC
+    url: "https://elections.bc.ca"
+    location: Vancouver, BC
+    overview: Elections BC administers provincial general elections, by-elections, recall petitions, initiative petitions, initiative votes, referenda and plebiscites, and oversees campaign financing and advertising rules at the local level.
+  positions:
+  - designation: Technical Supervisory Voting Officer
+    start: Contract
+    end: June 2023
+    responsibilities:
+    - Administered a referendum with the assistance of the Supervisory Voting Officer
+    - Ensured voting technology is set up and operated correctly
+    - Set up, monitored and performed initial count for electronic ballot tabulators
+    - Supervised Ballot Issuing Officers and assist with technical and electoral issues
+    - Set up and monitored status of Electronic Voter Books issued to election officials
+    - Ensured secure transport of electoral materials to and from the polling site
+    - Advised on issues relating to the BC Elections Act
+    - Reported election results to the District Electoral Officer
+
+- company:
+    name: City of Vancouver
+    url: "https://vancouver.ca/your-government/civic-elections"
+    location: Vancouver, BC
+    overview: City of Vancouver Municipal Elections oversees the elections of the Mayor, councillors and various board members as well as public referenda.
+  positions:
+  - designation: Presiding Election Official
+    start: Contract
+    end: October 2022
+    responsibilities:
+    - Supervised the polling place with the assistance of an APEO
+    - Ensured voting technology is set up and operated correctly
+    - Supervised Registration Officials and assist with technical and electoral issues
+    - Set up and monitored status of Electronic Voter Books
+    - Assisted with the secure transport of electoral materials to the voting place
+    - Ensured City of Vancouver Elections policy was maintained
+  - designation: Registration Official
+    start: Contract
+    end: October 2018
+    responsibilities:
+    - Verified that voters were on the voting list and had acceptable ID
+    - Prepared and explained the ballot to voters including candidates and referenda
+    - Ensured voters understood the electoral process
+    - Assisted non-resident and University Endowment voters with special ballots
 
 - company:
     name: Elections Canada | Élections Canada
     url: "https://elections.ca"
     location: Vancouver, BC
     overview: Elections Canada is the independent and non-partisan agency responsible for conducting federal elections and referenda.
-  
   positions:
   - designation: Central Poll Supervisor
     start: Contract
@@ -89,21 +150,4 @@ experiences:
     - Recorded eligible voters and filled out relevant forms
     - Ensured secrecy of the ballot by maintaining and enforcing rules of the Elections
     - Enabled accessiblity during the voting process
-
-
-- company:
-    name: City of Vancouver
-    url: "https://vancouver.ca/your-government/civic-elections"
-    location: Vancouver, BC
-    overview: City of Vancouver Municipal Elections oversees the elections of the Mayor, councillors and various board members as well as public referenda.
-  
-  positions:
-  - designation: Registration Official
-    start: Contract
-    end: October 2018
-    responsibilities:
-    - Verified that voters were on the voting list and had acceptable ID
-    - Prepared and explained the ballot to voters including candidates and referenda
-    - Ensured voters understood the electoral process
-    - Assisted non-resident and University Endowment voters with special ballots
 

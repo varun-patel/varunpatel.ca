@@ -1,11 +1,13 @@
 # Copyright Notice
-copyright: © 2020 - 2021 Varun Patel.
+copyright: © 2020 - 2023 Varun Patel.
 
 # Meta description for your site.  This will help the search engines to find your site.
 description: Varun Patel's Portfolio.
 
-# specify the list of custom menus that you want to show in the top navbar.
-# they will be separated by a divider from the main menus.
-# customMenus:
-# - name: Notes
-#   url: https://hossainemruz.gitbook.io/
+# Specify OpenGraph Headers
+openGraph:
+  title: Varun's Portfolio
+  type: website
+  description: Varun Patel's Portfolio Site
+  image: images/avatar.png
+  url: https://varunpatel.ca

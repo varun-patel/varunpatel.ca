@@ -48,6 +48,7 @@ params:
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/varun-patel/varunpatel.ca
+  gitBranch: main
 
   # specify whether you want to write blog post or not
   enableBlogPost: false

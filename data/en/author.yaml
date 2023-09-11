@@ -6,7 +6,10 @@ greeting: "Hi, I'm"
 image: "images/avatar.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "jobs@varunpatel.ca"
+  email: "consulting@varunpatel.ca"
+  phone: "+1 (778) 898-2645"
+  github: varun-patel
+  linkedin: varunp01
 
 # some summary about what you do
 #summary:

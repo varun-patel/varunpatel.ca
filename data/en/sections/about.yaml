@@ -8,22 +8,17 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Lead Software Developer at Luscinia Enterprises | Engineering Student at UBC
+designation: IT Service Delivery Specialist
 # your company information
-#company:
-#  name: Luscinia Enterprises Assn.
-#  url: "https://luscinia.ca"
+company:
+  name: Seaspan Ship Management Ltd.
+  url: "https://seaspancorp.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-
-summary: 
-
-#summary: 'Experienced Director of Luscinia Enterprises Assn. a not-for-profit working in education technologies. Skilled in Azure Cloud, Java, Python APIs and Kubernetes/Docker orchestration as well as many networking systems and technologies. Currently studying for a Bachelor of Applied Science at the University of British Columbia.'
-
-#move director lower, sdl, skills first
+summary: I am currently a Student working as an IT Service Delivery Specialist at Seaspan Ship Management Ltd. and providing IT consulting services through my business VP IT Consulting.
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -34,7 +29,7 @@ socialLinks:
 
 - name: S/MIME Certificate
   icon: "fas fa-key"
-  url: "/files/Varun_Patel_SMIME.pem"
+  url: "/files/varun_varunpatel_ca_cert.cer"
 
 - name: Github
   icon: "fab fa-github"
@@ -47,63 +42,39 @@ socialLinks:
 - name: Facebook
   icon: "fab fa-facebook"
   url: "https://www.facebook.com/varun.patel01"
-  
-- name: Keybase
-  icon: "fab fa-keybase"
-  url: "https://keybase.io/varunpatel"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 badges:
-  
-#- type: certification
-#  name: "Microsoft Certified Azure Fundamentals"
-#  url: "https://www.credly.com/badges/9cec8f9b-b101-4037-a57e-93c789459fd4"
-#  badge: "/images/about/mta-introduction-to-programming-using-java-certified-2021.png"
-  
+
 - type: certification
-  name: "Microsoft Certified: Azure Fundamentals"
-  url: "https://www.credly.com/badges/f64a4a97-88f5-47a9-8680-0a88ec0a4ac5"
-  badge: "/images/about/microsoft-certified-azure-fundamentals.png"
-  
+  name: "Microsoft Certified: Azure Solutions Architect Expert"
+  url: "https://www.credly.com/badges/44e30ac9-fe2d-41ac-a165-1ea2a3ea5e37"
+  badge: "https://images.credly.com/size/680x680/images/987adb7e-49be-4e24-b67e-55986bd3fe66/azure-solutions-architect-expert-600x600.png"
+
+- type: certification
+  name: "Microsoft Certified: Azure Devops Engineer Expert"
+  url: "https://www.credly.com/badges/cf3b9355-287e-40c4-95c2-7c50dbf9710a"
+  badge: "https://images.credly.com/size/680x680/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/CERT-Expert-DevOps-Engineer-600x600.png"
+
 - type: certification
   name: "Microsoft Certified: Azure Administrator Associate"
-  url: "https://www.credly.com/badges/e95d78df-efec-45aa-84b4-9b4cf0b7ad05"
-  badge: "/images/about/microsoft-certified-azure-administrator-associate.2.png"
-  
+  url: "https://www.credly.com/badges/121f5b89-3b12-48f2-92d8-28a37378d833"
+  badge: "https://images.credly.com/size/680x680/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png"
+
 - type: certification
   name: "Microsoft Certified: Azure Developer Associate"
-  url: "https://www.credly.com/badges/f47f5c5a-d453-486e-96b6-f966ca6d93c2"
-  badge: "/images/about/microsoft-certified-azure-developer-associate.1.png"
-  
-- type: soft-skill-indicator
-  name: Java
-  percentage: 100
-  color: orange
-  
-- type: soft-skill-indicator
-  name: HTML
-  percentage: 100
-  color: blue
-  
-- type: soft-skill-indicator
-  name: Docker
-  percentage: 100
-  color: green
-  
-- type: soft-skill-indicator
-  name: C
-  percentage: 100
-  color: orange
-  
-- type: soft-skill-indicator
-  name: CSS
-  percentage: 100
-  color: blue
-  
-- type: soft-skill-indicator
-  name: Kubernetes
-  percentage: 100
-  color: green
-  
+  url: "https://www.credly.com/badges/72f54713-6951-4cbc-a4d2-5f4342ffc7f9"
+  badge: "https://images.credly.com/size/680x680/images/63316b60-f62d-4e51-aacc-c23cb850089c/azure-developer-associate-600x600.png"
+
+- type: certification
+  name: "MTA: Introduction to Programming using Java"
+  url: "https://www.credly.com/badges/9cec8f9b-b101-4037-a57e-93c789459fd4"
+  badge: "https://images.credly.com/size/680x680/images/74450625-9ec7-41a7-897e-aa61a9ea4278/MTA-Introduction_to_Programming_Using_Java-600x600.png"
+
+- type: certification
+  name: "Microsoft Certified: Azure Fundamentals"
+  url: "https://www.credly.com/badges/96b2b841-ec21-4627-9956-83bb6c3319ba"
+  badge: "https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+
