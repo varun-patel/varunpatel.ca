@@ -84,7 +84,7 @@ params:
       services:
         # Google Analytics
         google:
-          id: UA-148918898-1
+          id: G-SB1MPJWFZZ
 
     # Enable Support
     support:
