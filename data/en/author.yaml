@@ -6,8 +6,7 @@ greeting: "Hi, I'm"
 image: "images/avatar.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "consulting@varunpatel.ca"
-  phone: "+1 (778) 898-2645"
+  email: "consulting@vpit.ca"
   github: varun-patel
   linkedin: varunp01
 
