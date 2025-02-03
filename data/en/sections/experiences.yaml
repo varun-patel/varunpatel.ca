@@ -85,6 +85,17 @@ experiences:
     location: Vancouver, BC
     overview: Elections BC administers provincial general elections, by-elections, recall petitions, initiative petitions, initiative votes, referenda and plebiscites, and oversees campaign financing and advertising rules at the local level.
   positions:
+  - designation: Supervisory Voting Officer
+    start: Contract
+    end: October 2024
+    responsibilities:
+    - Supervised the voting place with the assistance of a TSVO
+    - Oversee the setup and secure storage of voting technology and materials
+    - Ensure compliance with voting procedures 
+    - Guide and supervise election officials, ensuring accurate completion of assigned duties
+    - Handle interactions with voters, media, candidate representatives, and election officials
+    - Troubleshoot voting technology to ensure smooth operations
+    - Supervise the initial count and report election night results
   - designation: Technical Supervisory Voting Officer
     start: Contract
     end: June 2023
@@ -134,7 +145,7 @@ experiences:
     end: September 2021
     responsibilities:
     - Managed polling place as the highest ranking election officer present
-    - Implemented COVID-19 measures including physical distancing and distributing PPE
+    - Implemented COVID-19 measures including physical distancisng and distributing PPE
     - Conducted site accessibility assessments prior to and during election day
     - Assisted poll workers with their tasks, relaying directives from the elections office
     - Successfully handled one of the longest lines in the country at 3.5 hours

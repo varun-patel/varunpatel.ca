@@ -78,3 +78,16 @@ badges:
   url: "https://learn.microsoft.com/api/credentials/share/en-us/varun-patel/283F694ABB56FD28?sharingId=6DEDE5AC33E7DB16"
   badge: "https://images.credly.com/size/680x680/images/dbc3530b-af8c-4fa1-8d9c-cdfbd9edf462/microsoft365-modern-desktop-administrator-associate-600x600.png"
 
+- type: certification
+  name: "Systems Security Certified Practicioner (SSCP) - ISC2"
+  url: "https://www.credly.com/badges/0f2cbbd2-7f57-4742-ae45-72655e590e80"
+  badge: "files/sscp-logo.png"
+
+- type: certification
+  name: ITIL 4 Foundation - Axelos
+  url: "https://candidate.peoplecert.org/MobileReports.aspx?id=C50C19EEFA758164F8ADF27962E1D9091C1F97AC78CCD719E728F0FADA6DC7186E3C568566BE5C9881A4A426C64845CD9B12BEE2D6FAF377FC50A39B5FCA23AE0AD1B29435348CB8C150969BDEB2D8E7E57E3876F299C1E6555CC6D6C70DA3F970C7FDE411BE523629631DBB89B9803AB96217234AFB2684331EA6F27932D6DB"
+  badge: "https://badges.peoplecert.org/Badges/Template/en/180/63804148-665a-4881-aac6-eaec58799a85"
+
+- type: certification
+  name: "Microsoft Partner"
+  badge: "files/ms-partner-logo.png"
