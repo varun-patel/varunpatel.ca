@@ -1,0 +1,27 @@
+# Gitea Actions on git.van.vpit.ca (vpit/varunpatel.ca, a pull mirror of GitHub). Gitea runs only this folder once it
+# exists and ignores .github/workflows; GitHub ignores this folder. A mirror only sees pushes, so pull request previews
+# stay on GitHub. This deploys main to the Static Web App (kind-beach-0efe1d61e).
+#
+# Secret (repo vpit/varunpatel.ca in Gitea): SWA_DEPLOY_TOKEN, the deploy token (KV gitea-swa-varunpatel-ca-token).
+name: Deploy to Azure Static Web Apps
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    name: Build and deploy
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          lfs: false
+      - name: Build and deploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.SWA_DEPLOY_TOKEN }}
+          action: upload
+          app_location: "/"
+          api_location: ""
+          output_location: "public"
